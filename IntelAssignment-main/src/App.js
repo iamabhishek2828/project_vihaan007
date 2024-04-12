@@ -15,8 +15,8 @@ function App() {
       path: "/",
       element: (
         <>
-          {/* <Navbar /> */}
-          <LoadingPage />
+          <Navbar />
+          <Home />
         </>
       ),
     },
