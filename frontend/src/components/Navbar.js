@@ -22,7 +22,7 @@ function BasicExample() {
               About
             </Nav.Link>
             <Nav.Link as={Link} to="/Services">
-              Services
+              Diagnosis
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
