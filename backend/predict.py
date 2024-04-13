@@ -2,7 +2,7 @@ from modddel import model
 
 import numpy as np
 import cv2
-import matplotlib.pyplot as plt
+
 
 def read_image_(path):
      #path=path.decode()
@@ -35,7 +35,5 @@ def display_segmentation(image_path, model):
     # Display the image with segmentation overlay
     return x
 
-# Example usage:
-#image_path = "img- (1).png"
-#img=display_segmentation(image_path, model)
+
 

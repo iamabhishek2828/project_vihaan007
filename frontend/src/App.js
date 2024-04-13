@@ -1,6 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Chatbot from "./components/chatbot";
 
 // import Switch from 'react-router-dom'
 import Home from "./components/Home";
@@ -57,6 +58,8 @@ function App() {
       ),
     },
   ]);
+  document.documentElement.style.overflow = "hidden";
+
   return (
     <>
       <RouterProvider router={router} />

@@ -6,9 +6,6 @@ from modddel import model
 from predict import read_image_
 from predict import display_segmentation
 from PIL import Image
-import matplotlib
-matplotlib.use('Agg')
-import matplotlib.pyplot as plt
 from modddel import np
 app = Flask(__name__)
 CORS(app)  # Enable CORS for your Flask app
